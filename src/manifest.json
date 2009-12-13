@@ -1,0 +1,17 @@
+{
+  "name": "ChromeEye",
+  "author": "Steven Van Vaerenbergh",
+  "description": "Perform a reverse image lookup of all images on the current page using TinEye",
+  "version": "0.1",
+  "update_url": "http://github.com/steven2358/chromeeye/raw/master/updates.xml",
+  "background_page": "background.html",
+  "icons": { "128": "chromeeye128.png" },
+  "options_page": "options.html",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "browser_action": {
+    "default_title": "Reverse image lookup",
+    "default_icon": "chromeeye16.png"
+  }
+}

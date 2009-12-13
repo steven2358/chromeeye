@@ -1,0 +1,17 @@
+﻿<html>
+<head>
+<script>
+  function tinEyeTab(src_url) {
+    var action_url = 'http://tineye.com/search?url='+src_url;
+    console.log('action url: ' + action_url);
+    chrome.tabs.create({ url: action_url });
+  }
+
+  chrome.browserAction.onClicked.addListener(function(tab) {
+    if (tab.url.indexOf("http:") == 0 || tab.url.indexOf("https:") == 0) {
+      tinEyeTab(encodeURI(tab.url));
+    }
+  });
+</script>
+</head>
+</html>
