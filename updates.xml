@@ -2,5 +2,6 @@
 <gupdate xmlns='http://www.google.com/update2/response' protocol='2.0'>
   <app appid='eobcnjbllegmemphdlilmnkklpnfkcfa'>
     <updatecheck codebase='http://cloud.github.com/downloads/steven2358/chromeeye/chromeeye-0.1.crx' version='0.1' />
+    <updatecheck codebase='http://cloud.github.com/downloads/steven2358/chromeeye/chromeeye-0.2.crx' version='0.2' />
   </app>
 </gupdate>
